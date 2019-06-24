@@ -1,1 +1,7 @@
-mysql 数据库 端口 3006
+# gp
+
+## ocean 前端文件 react
+
+## react-backend 后台文件 express
+
+### eli
