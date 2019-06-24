@@ -1,0 +1,32 @@
+.contleft{
+    min-height: 500px;
+}
+.homeright{
+    min-height: 500px;
+}
+.contbuttons{
+    padding: 20px;
+    position: relative;
+}
+.contbuttons::after{
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 1px;
+    bottom: 0px;
+    background-color: red;
+}
+.contbuttons p{
+    font-style: italic;
+    color:red;
+    font-size: 12px;
+}
+.contbuttons p span{
+    font-size: 16px;
+    font-style: normal;
+    color:#000
+}
+.xinxiliu{
+    font-size: 20px;
+    margin: 30px;
+}

@@ -1,0 +1,27 @@
+.loginnow{
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    background-color: white;
+}
+.tishi{
+    height: 20px;
+}
+.loginname{
+    font-size: 20px;
+    padding: 20px ;
+    color: red;
+}
+.loginform{
+    padding: 20px;
+}
+.loginform lable input{
+    text-align: justify;
+}
+#name,#password,#submit{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.resign{
+    margin-left: 50px;
+}

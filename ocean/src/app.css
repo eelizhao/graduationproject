@@ -1,0 +1,38 @@
+@font-face {
+  font-family: '.苹方-简';
+  src: url(pingfang.ttf);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: '.苹方-简';
+}
+html {
+  background-color: rgb(230, 236, 240);
+}
+.headers {
+  height: 20px;
+  top: 0px;
+  z-index: 10;
+}
+html body {
+  height: 100%;
+}
+.bodys {
+  margin-top: 80px;
+  height: 100%;
+}
+.yonghumi th,
+.yonghumi tb {
+  width: 140px;
+}
+.nihaoa {
+  color: red;
+}
+.heph {
+  font-size: 12px;
+}
+.emails {
+  color: #111;
+}

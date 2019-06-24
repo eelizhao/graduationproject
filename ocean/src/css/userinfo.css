@@ -1,0 +1,118 @@
+.continfo{
+    display: flex;
+}
+.contleft{
+    width: 70%;
+    margin: 20px 5%;
+    background-color: white;
+}
+.contright{
+    width: 15%;
+    margin: 20px 5%;
+}
+.contbutton{
+    color: #ee9439;
+    font-size: 22px;
+    padding: 10px;
+    margin-left: 2%;
+}
+.contcommit {
+    padding: 20px 10px;
+    height: auto;
+    margin: 10px 0px;
+    position: relative;
+  }
+  .contcommit::before {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(241, 90, 34, 0.3);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  .contcommit::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(241, 90, 34, 0.3);
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+  }
+  .contcommit input {
+    border-color: rgba(241, 90, 34, 0.5);
+    height: 30px;
+    width: 50%;
+    margin-left: 2%;
+    border-radius: 1px;
+    z-index: 1;
+  }
+  .contcommit span {
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(241, 90, 34, 1);
+    font-size: 18px;
+    height: 26px;
+    margin-left: 20px;
+  }
+  .xinxinliu {
+    width: 100%;
+    overflow: hidden;
+    font-size: 16px;
+  }
+  .contright{
+    width: 25%;
+    margin: 20px 5% 20px 0;
+    background-color: white;
+    overflow: hidden;
+  }
+  .contcont{
+    color: #ee9439;
+    font-size: 22px;
+    padding: 10px;
+    margin-left: 2%;
+    position: relative;
+  }
+  .contcont::after {
+    content: "";
+    display: inline-block;
+    width: 120%;
+    height: 1px;
+    background-color: rgba(241, 90, 34, 0.3);
+    position: absolute;
+    left: -20px;
+    bottom: 0px;
+  }
+  .contconts{
+    margin: 3%;
+    list-style: none;
+  }
+  .contconts li{
+    padding: 10px;
+    font-size: 16px;
+    position: relative;
+  }
+  .contconts li::after {
+    content: "";
+    display: inline-block;
+    width: 120%;
+    height: 1px;
+    background-color: #e7e5e5;
+    position: absolute;
+    left: -4%;
+    bottom: 0px;
+  }
+  .liqianqiandashagua{
+    color: red;
+    font-style: italic;
+  }
+  .homecommit .infotishi{
+    color: #000;
+    font-size: 16px;
+  }
+  .blogssubmit{
+    cursor: pointer;
+  }

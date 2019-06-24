@@ -1,0 +1,29 @@
+#navigation {
+    float: left;
+    margin-top: 20px;
+    width: 10%;
+  }
+  #wrapper {
+    float: right;
+    width: 100%;
+    margin-right: -200px;
+  }
+  #content {
+    margin-right: 200px;
+  }
+  .hello {
+    display: block;
+    width: 70%;
+    float: left;
+    margin-top: 20px;
+    height: 100px;
+    margin-left: 60px;
+  }
+  .hello p {
+    margin: 6px;
+  }
+  .hiliqian {
+    margin: 10px;
+    cursor: pointer;
+  }
+  
